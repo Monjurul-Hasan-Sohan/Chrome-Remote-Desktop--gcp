@@ -3,7 +3,7 @@
   1. https://shell.cloud.google.com/
  
 
-  2. git clone git@github.com:Monjurul-Hasan-Sohan/Chrome-Remote-Desktop--gcp.git
+  2. git clone https://github.com/Monjurul-Hasan-Sohan/Chrome-Remote-Desktop--gcp.git
      
 cd vnc-google-shell
 cp vnc.py ../
