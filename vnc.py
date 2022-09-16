@@ -24,4 +24,5 @@ cmd = 'sudo mkdir processing'
 os.system(cmd)
 cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz -C ~/processing'
 os.sytem(cmd)
-print("vnc up")
+cmd = 'htop'
+os.sytem(cmd)
