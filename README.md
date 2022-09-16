@@ -4,10 +4,9 @@
  
 
   2. git clone https://github.com/Monjurul-Hasan-Sohan/Chrome-Remote-Desktop--gcp.git
-  3. 
-     cd Chrome-Remote-Desktop--gcp
-     cp vnc.py ../
-     cd
+  3. cd Chrome-Remote-Desktop--gcp
+  4. cp vnc.py ../
+  5. cd
 
   3. python vnc.py
 
