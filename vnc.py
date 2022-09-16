@@ -2,14 +2,6 @@ import os
 
 cmd = 'wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb'
 os.system(cmd)
-cmd = 'git clone https://github.com/alexdanca341341/vnc-google-shell.git'
-os.system(cmd)
-cmd = 'cd vnc-google-shell'
-os.system(cmd)
-cmd = 'cp vnc.py ../'
-os.system(cmd)
-cmd = 'cd'
-os.system(cmd)
 cmd = 'sudo apt update'
 os.system(cmd)
 cmd = 'sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb'
