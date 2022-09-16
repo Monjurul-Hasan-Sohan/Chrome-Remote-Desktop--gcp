@@ -18,9 +18,7 @@
 
   7. https://remotedesktop.google.com/access
 
-
-
-
+<br>
 console restart / reset:
   1. python vnc.py
 
