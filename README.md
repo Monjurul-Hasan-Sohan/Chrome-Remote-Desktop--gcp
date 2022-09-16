@@ -19,7 +19,8 @@
   7. https://remotedesktop.google.com/access
 
 <br>
-console restart / reset:
+
+#console restart / reset:
   1. python vnc.py
 
   2.https://remotedesktop.google.com/headless 
