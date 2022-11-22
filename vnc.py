@@ -8,13 +8,9 @@ cmd = 'sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.d
 os.system(cmd)
 cmd = 'sudo apt install --assume-yes xfce4 desktop-base dbus-x11 xscreensaver'
 os.system(cmd)
-cmd = 'sudo apt install konsole -y'
-os.system(cmd)
-cmd = 'sudo apt install firefox-esr -y'
+cmd = 'sudo apt install firefox -y'
 os.system(cmd)
 cmd = 'sudo apt-get install inkscape -y'
-os.system(cmd)
-cmd = 'sudo apt-get install vim-gtk3 -y'
 os.system(cmd)
 cmd = 'sudo apt install iputils-ping -y'
 os.system(cmd)
@@ -24,5 +20,7 @@ cmd = 'sudo mkdir processing'
 os.system(cmd)
 cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz -C ~/processing'
 os.sytem(cmd)
-cmd = 'htop'
+cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_v2.git"
+os.sytem(cmd)
+cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions"
 os.sytem(cmd)
