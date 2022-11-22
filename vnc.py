@@ -19,8 +19,8 @@ os.system(cmd)
 cmd = 'sudo mkdir processing'
 os.system(cmd)
 cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz -C ~/processing'
-os.sytem(cmd)
+os.system(cmd)
 cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_v2.git"
-os.sytem(cmd)
+os.system(cmd)
 cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions"
-os.sytem(cmd)
+os.system(cmd)
