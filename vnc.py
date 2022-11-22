@@ -24,3 +24,7 @@ cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_
 os.system(cmd)
 cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions"
 os.system(cmd)
+cmd = "cd inkscape-extensions/"
+os.system(cmd)
+cmd = "cp -a 4xiDraw\ \&\ km\ laser/. /home/codespace/.config/inkscape/extensions/"
+os.system(cmd)
