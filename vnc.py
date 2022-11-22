@@ -18,13 +18,13 @@ cmd = 'sudo wget https://github.com/processing/processing/releases/download/proc
 os.system(cmd)
 cmd = 'sudo mkdir processing'
 os.system(cmd)
-cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz -C ~/processing'
+cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz'
 os.system(cmd)
-cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_v2.git"
+cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_v2.git'
 os.system(cmd)
-cmd = "git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions"
+cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions'
 os.system(cmd)
-cmd = "cd inkscape-extensions/"
+cmd = 'cd inkscape-extensions/'
 os.system(cmd)
-cmd = "cp -a 4xiDraw\ \&\ km\ laser/. /home/codespace/.config/inkscape/extensions/"
+cmd = 'cp -a 4xiDraw\ \&\ km\ laser/. /home/codespace/.config/inkscape/extensions/'
 os.system(cmd)
