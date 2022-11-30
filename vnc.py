@@ -24,7 +24,7 @@ cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz'
 os.system(cmd)
 cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_v2.git'
 os.system(cmd)
-cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions'
+cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions/tree/main/4xiDraw%20%26%20km%20laser/4xiDraw%20%26%20km%20laser'
 os.system(cmd)
 cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/SquiggleDraw'
 os.system(cmd)
