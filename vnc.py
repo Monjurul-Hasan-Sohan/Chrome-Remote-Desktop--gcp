@@ -14,6 +14,10 @@ cmd = 'sudo apt-get install inkscape -y'
 os.system(cmd)
 cmd = 'sudo apt install iputils-ping -y'
 os.system(cmd)
+cmd = 'mkdir CNC'
+os.system(cmd)
+cmd = 'cd CNC'
+os.system(cmd)
 cmd = 'sudo wget https://github.com/processing/processing/releases/download/processing-0270-3.5.4/processing-3.5.4-linux64.tgz'
 os.system(cmd)
 cmd = 'sudo tar -xvf processing-3.5.4-linux64.tgz'
@@ -21,4 +25,6 @@ os.system(cmd)
 cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/Drawbot_image_to_gcode_v2.git'
 os.system(cmd)
 cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/inkscape-extensions'
+os.system(cmd)
+cmd = 'git clone https://github.com/Monjurul-Hasan-Sohan/SquiggleDraw'
 os.system(cmd)
